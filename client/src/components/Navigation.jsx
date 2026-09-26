@@ -1,5 +1,5 @@
 import React from 'react'
-import '../App.css'
+import { Link } from 'react-router-dom'
 import '../css/Navigation.css'
 
 const Navigation = () => {
@@ -8,12 +8,10 @@ const Navigation = () => {
             <ul>
                 <li><h1>Bolt Bucket 🏎️</h1></li>
             </ul>
-
             <ul>
-                <li><a href='/' role='button'>Customize</a></li>
-                <li><a href='/customcars' role='button'>View Cars</a></li>
+                <li><Link to='/' role='button'>Customize</Link></li>
+                <li><Link to='/customcars' role='button'>View Cars</Link></li>
             </ul>
-            
         </nav>
     )
 }

@@ -1,0 +1,104 @@
+.page {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    color: white;
+}
+
+.preview-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
+}
+
+.form-panel,
+.details-panel {
+    flex: 1;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.form-panel label {
+    display: block;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.form-panel input,
+.form-panel select {
+    margin-top: 6px;
+}
+
+.price {
+    font-size: 2.4rem;
+    margin-top: 20px;
+    color: #f5c518;
+}
+
+.warning {
+    color: #ffcc00;
+    background: rgba(255, 200, 0, 0.1);
+    padding: 12px;
+    border-left: 4px solid #ffcc00;
+    border-radius: 4px;
+    margin-top: 16px;
+    width: 100%;
+}
+
+.error {
+    color: #ff6b6b;
+    background: rgba(255, 60, 60, 0.15);
+    padding: 12px;
+    border-left: 4px solid #ff3c3c;
+    border-radius: 4px;
+}
+
+.view-cars {
+    flex-direction: column;
+}
+
+.car-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 24px;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.car-card {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.car-card footer {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.spec-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.spec-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.details-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,10 @@
+.car-preview {
+    width: 100%;
+    max-width: 620px;
+}
+
+.car-preview svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
