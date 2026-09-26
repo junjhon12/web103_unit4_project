@@ -36,9 +36,9 @@ Time spent: **5** hours
 
 ## Video Walkthrough
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Recording 2026-09-26 at 17.03.22.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with ScreenToGif
+GIF created with gifcap
 
 ## Notes
 
